@@ -21,7 +21,7 @@ class RegistryShelfViews:
     def registry_fail_shelf(self, new_shelf: any) -> None:
         self.__clear()
 
-        message = f'\tOcorreu um erro ao cadastrar a prateleira: {new_shelf.id}'
+        message = f'\tOcorreu um erro ao cadastrar a prateleira: {new_shelf}'
         print(message)
         
     def __clear(self) -> None:

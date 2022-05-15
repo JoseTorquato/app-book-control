@@ -4,7 +4,7 @@ def start_page() -> str:
 
         * Cadastrar uma prateleira - 1
         * Cadastrar um livro - 2
-        * Buscar livros - 3
+        * Buscar livros em uma prateleira - 3
         * Sair - 0
 
     '''
