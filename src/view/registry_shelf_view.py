@@ -2,7 +2,7 @@ import os
 
 
 class RegistryShelfViews:
-    def registry_sheld_view(self) -> int:
+    def registry_shelf_view(self) -> int:
         self.__clear()
         print("\tCadastrar uma prateleira \n\n")
         try:
