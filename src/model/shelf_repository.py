@@ -10,7 +10,7 @@ class __ShelfRegister:
         self.shelves.append(shelf_class)
     
     def registry_book(self, book_class: any) -> None:
-        self.shelves.append(book_class)
+        self.books.append(book_class)
     
     def get_shelf_id(self, shelf_id: int) -> any:
         for shelf_information in self.shelves:
@@ -26,6 +26,14 @@ class __ShelfRegister:
         
         return None
     
+    def get_books_by_shelf(self, shelf_id: int) -> any:
+        books = []
+        for book_information in self.books:
+            if book_information.shelf_number == shelf_id:
+                books.append(book_information)
+        
+        return books
+
     def get_all_books(self) -> List:
         return self.books
 
