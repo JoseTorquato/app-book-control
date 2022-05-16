@@ -1,4 +1,4 @@
-# school-control
+# shelf-control
 
 # Como começar
 
